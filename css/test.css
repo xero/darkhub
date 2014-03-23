@@ -1,0 +1,6 @@
+html {
+	-webkit-filter: invert(100%);
+}
+img {
+	-webkit-filter: invert(100%) !important;
+}

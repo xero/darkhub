@@ -1,0 +1,69 @@
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+body {
+	font-family: $font;
+	min-width: 300px;
+	overflow-x: hidden;
+}
+h1, h2, h3 {
+	padding: 2px;
+	margin: 2px;
+}
+section {
+	border: 1px solid $border;
+	padding: 0px;
+	background: transparent;
+	@include border-radius($radius);
+	header, footer {
+		color: $headerFont;
+		padding: $padding;
+	}
+	header {
+		background: $headerBg;
+		border-bottom: 1px solid $border;
+	}
+	footer {
+		background: $footerBg;
+	}
+	section, article {
+		background: $sectionBg;
+		padding: $padding;
+		padding-top: $padding*2;
+		border: 0;
+		@include border-radius(0px);
+	}
+}
+select {
+	width: 100%;
+	font-size: 17px;
+	padding: 8px;
+	font-weight: bold;
+	background: $inputBg;
+	border-color: $border;
+	@include transition(.6s ease-out);
+	> option:nth-child(odd) { 
+		background: #eee; 
+	}
+	> option:nth-child(even) { 
+		background: #fff; 
+	}
+	&:hover {
+		background: $inputBgHover;
+	}
+}
+button {
+	font-size: 17px;
+	line-height: 20px;
+	padding: 8px;
+	font-weight: bold;
+	background: $btnBg;
+	color: $btnFont;
+	border: 1px solid $btnBorder;
+	@include border-radius($radius);
+	@include transition(.6s ease-out);
+	&:hover {
+		background: $btnBgHover;
+		color: $btnFontHover;
+		border-color: $btnBorderHover;
+	}	
+}
