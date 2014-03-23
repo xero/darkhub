@@ -1,0 +1,11 @@
+*.log
+.sass-cache/*
+compass_app_log.txt
+.DS_STORE
+.DS_STORE?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
