@@ -1,8 +1,0 @@
-/*!
- * flat
- * a simple theme
- *
- * @author xero harrison <x@xero.nu>
- * @copyright (cc) creative commons - attribution-shareAlike 3.0 unported
- * @version 0.01.0
- */body{font-family:Verdana,Verdana,Geneva,sans-serif;min-width:300px;overflow-x:hidden}h1,h2,h3{padding:2px;margin:2px}section{border:1px solid #999;padding:0px;background:transparent;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px}section header,section footer{color:#000;padding:5px}section header{background:#aaa;border-bottom:1px solid #999}section footer{background:#999}section section,section article{background:#ddd;padding:5px;padding-top:10px;border:0;-webkit-border-radius:0px;-moz-border-radius:0px;-ms-border-radius:0px;-o-border-radius:0px;border-radius:0px}select{width:100%;font-size:17px;padding:8px;font-weight:bold;background:#efefef;border-color:#999;-webkit-transition:0.6s ease-out;-moz-transition:0.6s ease-out;-o-transition:0.6s ease-out;transition:0.6s ease-out}select>option:nth-child(odd){background:#eee}select>option:nth-child(even){background:#fff}select:hover{background:#fff}button{font-size:17px;line-height:20px;padding:8px;font-weight:bold;background:#eee;color:#333;border:1px solid #999;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;-webkit-transition:0.6s ease-out;-moz-transition:0.6s ease-out;-o-transition:0.6s ease-out;transition:0.6s ease-out}button:hover{background:#fff;color:#000;border-color:#ccc}

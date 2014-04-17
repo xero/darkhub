@@ -1,0 +1,172 @@
+html {
+	-webkit-filter: invert(100%) !important;
+}
+img,
+iframe {
+	-webkit-filter: invert(100%) !important;
+}
+a,
+a:visited {
+	color: #957373 !important;
+}
+a:hover {
+	color: #957373 !important;
+}
+.top-nav>li>a {
+	color: #444 !important;
+}
+.top-nav>li>a:hover {
+	color: #957373 !important;
+}
+.dashboard-tabs a {
+	color: #444 !important;
+}
+.dashboard-tabs a.selected, .dashboard-tabs a.selected:hover {
+	color: #000 !important;
+	border-bottom: 2px solid #957373 !important;
+}
+.dashboard-tabs a:hover{
+	color: #000 !important;
+	border-bottom: 2px solid #957373 !important;
+	background-color:#957373 !important;
+	background-image:-moz-linear-gradient(#fff, #b2a4a4) !important;
+	background-image:-webkit-linear-gradient(#fff, #b2a4a4) !important;
+	background-image:linear-gradient(#fff, #b2a4a4) !important;
+}
+.marketing-nav a.selected {
+	border-bottom: 2px solid #957373 !important;
+}
+.marketing-nav a {
+	color: #444 !important;
+}
+.tabnav .tabnav-tabs a {
+	color: #444 !important;
+}
+ul.filter-list .filter-item {
+	color: #444 !important;	
+}
+ul.filter-list .filter-item.selected {
+	background: #957373 !important;
+	color: #fff !important;
+}
+.news .alert .branch-link .octicon,
+.branch-name .octicon {
+	color: #222 !important;	
+}
+.news .alert .pull-info, 
+.news .alert .branch-link,
+.commit-ref {
+	color: #454545 !important;
+	background: #d8d7dd !important;
+}
+.commit-ref .user {
+	color: #000 !important;
+}
+.feed-icon a {
+	background: #d8d7dd !important;
+}
+.button.primary, 
+.minibutton.primary {
+	background-color: #957373 !important;
+	background-image:-moz-linear-gradient(#957373, #b2a4a4) !important;
+	background-image:-webkit-linear-gradient(#957373, #b2a4a4) !important;
+	background-image:linear-gradient(#957373, #b2a4a4) !important;
+	border-color: #b2a4a4 !important;
+	color: #000 !important;
+}
+.menu-container,
+.boxed-group {
+	background: #eae9f0 !important;
+}
+.boxed-group h3 {
+	border: none !important;
+}
+.boxed-group .boxed-group-inner {
+	border-color: #eae9f0 !important;
+}
+.menu {
+	border: 1px solid #eae9f0 !important;	
+}
+.menu a.selected {
+	border-left: 2px solid #957373 !important;
+}
+.repo-list-item {
+	background-color: #f5f5f5 !important;
+}
+.private .repo-list-item, 
+.branch-name {
+	background-color: #eee !important;
+}
+.repo-filterer .repo-filter {
+	color: #000 !important;
+}
+.simple-conversation-list>li .state-open,
+.gh-header-status.open,
+.discussion-item-open .discussion-item-icon {
+	background-color: #9339bb !important;
+}
+.simple-conversation-list>li .state-merged,
+.gh-header-status.merged,
+.discussion-item-merged .discussion-item-icon {
+	background-color: #91ab6b !important;
+}
+.simple-conversation-list>li .state-closed,
+.gh-header-status.closed,
+.discussion-item-closed .discussion-item-icon {
+	background-color: #42D3FF !important;
+}
+.simple-conversation-list>li .state-published,
+.gh-header-status.published,
+.discussion-item-published .discussion-item-icon {
+	background-color: #9339bb !important;
+}
+.open.octicon {
+	color: #42D3FF !important;
+}
+.closed.octicon {
+	color: #9339bb !important;
+}
+.repo-list-item .repo-icon {
+	color: #666 !important;
+}
+.text-diff-added {
+	color: #aa5acd !important;
+}
+.text-diff-deleted {
+	color: #42d3ff !important;
+}
+.code-list .private .bubble {
+	border: none !important;
+	background: #eae9f0 !important;
+}
+.code-list .private .bubble .file-box {
+	border: 1px solid #eae9f0 !important;
+}
+.blob-line-nums a, .blob-line-nums span {
+	color: #666 !important;
+}
+.list-group-item.navigation-focus {
+	background: #eae9f0 !important;
+}
+.usage-bar dd span{
+	background-color:#9c51d9 !important;
+	background-image:-moz-linear-gradient(#7e3ab5, #9c51d9) !important;
+	background-image:-webkit-linear-gradient(#7e3ab5, #9c51d9) !important;
+	background-image:linear-gradient(#7e3ab5, #9c51d9) !important;
+	background-repeat:repeat-x;box-shadow:inset 0 1px 0 rgba(0,0,0,0.4) !important;
+}
+.usage-bar dd span.danger{
+	background-color:#1236ff !important;
+	background-image:-moz-linear-gradient(#09209f, #1236ff) !important;
+	background-image:-webkit-linear-gradient(#09209f, #1236ff) !important;
+	background-image:linear-gradient(#09209f, #1236ff) !important;
+}
+.usage-bar dd span.maxed{
+	background-color:#99ffff !important;
+	background-image:-moz-linear-gradient(#6ff6ff, #9ff9ff) !important;
+	background-image:-webkit-linear-gradient(#6ff6ff, #9ff9ff) !important;
+	background-image:linear-gradient(#6ff6ff, #9ff9ff) !important;
+}
+.starred-repo.navigation-focus {
+	background-color: #eee !important;
+}
