@@ -170,3 +170,44 @@ ul.filter-list .filter-item.selected {
 .starred-repo.navigation-focus {
 	background-color: #eee !important;
 }
+.enterprise .notification-indicator.contextually-unread{
+	background-color:#CFBDAB !important;
+	background-image:-moz-linear-gradient(#425567, #CFBDAB) !important;
+	background-image:-webkit-linear-gradient(#425567, #CFBDAB) !important;
+	background-image:linear-gradient(#425567, #CFBDAB) !important;
+	border-color:#273644 #273644 #273644 #2a2c2e !important;
+}
+.notification-indicator .mail-status{
+	background-color:#555 !important;
+	background-color:#333 !important;
+	background-image:-moz-linear-gradient(#555, #333) !important;
+	background-image:-webkit-linear-gradient(#555, #333) !important;
+	background-image:linear-gradient(#555, #333) !important;
+}
+.notification-indicator:hover .mail-status{
+	background-color:#444 !important;
+	background-image:-moz-linear-gradient(#666, #444) !important;
+	background-image:-webkit-linear-gradient(#666, #444) !important;
+	background-image:linear-gradient(#666, #444) !important;
+}
+.notification-indicator .unread{
+	background-color:#CD965F !important;
+	background-image:-moz-linear-gradient(#BE7C3B, #CD965F) !important;
+	background-image:-webkit-linear-gradient(#BE7C3B, #CD965F) !important;
+	background-image:linear-gradient(#BE7C3B, #CD965F) !important;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 0 rgba(0,0,0,0.1),0 0 10px #BE7C3B !important;
+}
+.notification-indicator:hover .unread{
+	background-color:#D3A272 !important;
+	background-image:-moz-linear-gradient(#C7894B, #D3A272) !important;
+	background-image:-webkit-linear-gradient(#C7894B, #D3A272) !important;
+	background-image:linear-gradient(#C7894B, #D3A272) !important;
+}
+.notification-indicator.contextually-unread{
+	background-color:#d2e4f9 !important;
+	background-image:-moz-linear-gradient(#160D03, #d2e4f9) !important;
+	background-image:-webkit-linear-gradient(#160D03, #d2e4f9) !important;
+	background-image:linear-gradient(#160D03, #d2e4f9) !important;
+	border-left-color:#3D2A14 !important;
+	border-right-color:#3D2A14 !important;
+}
