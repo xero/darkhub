@@ -211,3 +211,36 @@ ul.filter-list .filter-item.selected {
 	border-left-color:#3D2A14 !important;
 	border-right-color:#3D2A14 !important;
 }
+#message.good{
+	background:#eee !important;
+	border-color:#66334D !important;
+}
+#message.good p{
+	color:#E6B2CC !important;
+}
+#message.minor{
+	background:#A7BFD6 !important;
+	border-color:#073158 !important;
+}
+#message.minor p{
+	color:#cd690f !important;
+}
+#message.major{
+	background:#D6FFFE !important;
+	border-color:#00BB96 !important;
+}
+#message.major p{
+	color:#661a00 !important;
+}
+#message .time{
+	color:#ccc !important;
+}
+.good{
+	color:#CB6899 !important;
+}
+.minor{
+	color:#0D62AF !important;
+}
+.major{
+	color:#3CF3CF !important;
+}
