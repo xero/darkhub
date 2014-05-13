@@ -300,11 +300,6 @@ h3.commit-group-heading {
 	border-bottom: 1px solid #6FF6FF !important;
 	text-shadow: 0 -1px 0 #6FF6FF !important;
 }
-.facebox-alert {
-	color: #8699DF !important;
-	background-color: #071138 !important;
-	border-color: #0D1F65 !important;
-}
 .button.danger:disabled, 
 .button.danger:disabled:hover, 
 .minibutton.danger.disabled, 
@@ -346,6 +341,17 @@ h3.commit-group-heading {
 	color:#000 !important;
 	background-color: #CFFCFF !important;
 	border-color: #D5D5D5 !important;
+}
+.facebox-overlay-active {
+	background: #fff !important;
+}
+.facebox-popup {
+	box-shadow:0 0 18px rgba(100,100,100,0.4) !important;
+}
+.facebox-alert {
+	color: #8699DF !important;
+	background-color: #071138 !important;
+	border-color: #0D1F65 !important;
 }
 .blob-line-nums,
 .blob-line-code,
