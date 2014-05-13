@@ -292,6 +292,61 @@ h3.commit-group-heading {
 .gobutton:hover>.sha .octicon {
 	border-color: #111 !important;
 }
+.boxed-group.dangerzone>h3 {
+	background-color: #20C1C1 !important;
+	background-image: -moz-linear-gradient(#068E8E, #20C1C1) !important;
+	background-image: -webkit-linear-gradient(#068E8E, #20C1C1) !important;
+	background-image: linear-gradient(#068E8E, #20C1C1) !important;
+	border-bottom: 1px solid #6FF6FF !important;
+	text-shadow: 0 -1px 0 #6FF6FF !important;
+}
+.facebox-alert {
+	color: #8699DF !important;
+	background-color: #071138 !important;
+	border-color: #0D1F65 !important;
+}
+.button.danger:disabled, 
+.button.danger:disabled:hover, 
+.minibutton.danger.disabled, 
+.minibutton.danger.disabled:hover {
+	color: #348080 !important;
+	text-shadow:0 1px 0 rgba(255,255,255,0.9) !important;
+	background-color:#eeeeee !important;
+	background-image:-moz-linear-gradient(#fcfcfc, #eee) !important;
+	background-image:-webkit-linear-gradient(#fcfcfc, #eee) !important;
+	background-image:linear-gradient(#fcfcfc, #eee) !important;
+	border:1px solid #d5d5d5 !important;
+}
+.button.danger, 
+.button.danger:hover, 
+.minibutton.danger, 
+.minibutton.danger:hover {
+	color: #6FF6FF !important;
+}
+.button.danger:focus, 
+.minibutton.danger:focus
+.button.danger:hover, 
+.minibutton.danger:hover {
+	background:  #CFFCFF !important;
+	border-color: #D5D5D5 !important;
+}
+.button.danger:hover,
+.minibutton.danger:hover{
+	color:#000 !important;
+	background-color:#CFFCFF !important; 
+	background-image:-moz-linear-gradient(#fcfcfc, #CFFCFF) !important;
+	background-image:-webkit-linear-gradient(#fcfcfc, #CFFCFF) !important;
+	background-image:linear-gradient(#fcfcfc, #CFFCFF) !important;
+	border-color: #D5D5D5 !important;
+}
+.button.danger:active,
+.button.danger.selected,
+.minibutton.danger:active,
+.minibutton.danger.selected{
+	color:#000 !important;
+	background-color: #CFFCFF !important;
+	border-color: #D5D5D5 !important;
+}
 .blob-line-nums,
 .blob-line-code,
 .markdown-body .highlight pre,
