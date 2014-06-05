@@ -42,6 +42,13 @@ a:hover {
 .tabnav .tabnav-tabs a {
 	color: #444 !important;
 }
+.repo-filterer .repo-filter.filter-selected,
+.pagehead-nav-item.selected {
+	border-bottom: 2px solid #957373 !important;
+}
+.repo-filterer .repo-filter:hover {
+	border-bottom: 2px solid #999 !important;	
+}
 ul.filter-list .filter-item {
 	color: #444 !important;	
 }
@@ -352,6 +359,44 @@ h3.commit-group-heading {
 	color: #8699DF !important;
 	background-color: #071138 !important;
 	border-color: #0D1F65 !important;
+}
+.dashboard-notice {
+	background-color: #F6F6F6 !important;
+	background-image: linear-gradient(#F5F5F5, #F6F6F6) !important;	
+	border: 1px solid #D6D6D6 !important;
+}
+.dashboard-notice .title {
+	border-bottom: 1px solid #D6D6D6 !important;
+}
+.dashboard-notice.org-newbie .fancytitle .octicon-organization {
+	color: #888888 !important;
+}
+.pagehead h1, #blog-main .pagehead h1 a.title {
+	color: #333 !important;
+}
+#blog-main .pagehead h1 a.title:hover {
+	text-decoration: none !important;
+	border-bottom: 1px solid #D6D6D6 !important;
+}
+.pagination a:hover, .pagination span:hover {
+	color: #000 !important;
+	background-color:#957373 !important;
+	background-image:-moz-linear-gradient(#fff, #b2a4a4) !important;
+	background-image:-webkit-linear-gradient(#fff, #b2a4a4) !important;
+	background-image:linear-gradient(#fff, #b2a4a4) !important;
+	border: 1px solid #aaa !important;
+}
+.collection-card .collection-card-title,
+.showcase-featured .featured-grid-link {
+	box-shadow: inset 0px 10px 10px rgba(255,255,255,0.4) !important;
+}
+.collection-head .collection-title,
+.collection-card .collection-card-title,
+.showcase-featured .featured-grid-link,
+.collection-page .side-collection-item-title,
+.showcase-featured .in-yo-face .showcase-name {
+	color: #000 !important;
+	text-shadow: 0px 1px 2px rgba(255,255,255,0.9) !important;	
 }
 .blob-line-nums,
 .blob-line-code,
