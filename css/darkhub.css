@@ -404,6 +404,7 @@ h3.commit-group-heading {
 .markdown-body pre {
 	background: #d8d7dd !important;
 	border: 0 !important;
+	line-height: 12px !important;
 }
 /**
  * monokai syntax highlighter style edited from:
