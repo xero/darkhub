@@ -360,7 +360,8 @@ h3.commit-group-heading {
 	background-color: #071138 !important;
 	border-color: #0D1F65 !important;
 }
-.dashboard-notice {
+.dashboard-notice,
+.owners-notice {
 	background-color: #F6F6F6 !important;
 	background-image: linear-gradient(#F5F5F5, #F6F6F6) !important;	
 	border: 1px solid #D6D6D6 !important;
@@ -370,6 +371,9 @@ h3.commit-group-heading {
 }
 .dashboard-notice.org-newbie .fancytitle .octicon-organization {
 	color: #888888 !important;
+}
+.member-list-item .member-security .octicon {
+	color: #0268E0 !important;
 }
 .pagehead h1, #blog-main .pagehead h1 a.title {
 	color: #333 !important;
