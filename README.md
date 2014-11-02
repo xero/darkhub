@@ -1,6 +1,14 @@
 #darkhub
 
-a crude google chrome extension to darken github.com
+``` 
+  ▓▓▓▓▓▓▓▓▓▓
+ ░▓ about  ▓ a crude google chrome extension to darken github.com
+ ░▓ author ▓ xero <x@xero.nu>
+ ░▓ code   ▓ http://code.xero.nu/darkhub
+ ░▓ mirror ▓ http://git.io/darkhub
+ ░▓▓▓▓▓▓▓▓▓▓
+ ░░░░░░░░░░
+```
 
 ##install
 
