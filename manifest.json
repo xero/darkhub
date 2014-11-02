@@ -2,7 +2,8 @@
     "manifest_version": 2,
     "name": "darkhub",
     "description": "a crude google chrome extension to darken github.com",
-    "version": "0.1.4",
+    "version": "0.1.5",
+    "author": "xero harrison",
     "permissions": [
         "tabs",
         "<all_urls>",
@@ -10,9 +11,11 @@
         "http://*/*",
         "https://*/*"
     ],
+    /*
     "browser_action": {
         "default_icon": "icon.png"
     },
+    */
     "content_scripts": [ 
         { 
             "all_frames": false, 
@@ -26,7 +29,6 @@
     ],
     "web_accessible_resources": [
         "js/start.js",
-        "css/darkhub.css",
         "css/darkhub.min.css"
     ]
 }
