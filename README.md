@@ -10,9 +10,11 @@
  ░░░░░░░░░░
 ```
 
-##install
+### chrome webstore
 
-this extension is not released on the store, so you must install it manually.
+free to download and install via the [chrome webstore](https://chrome.google.com/webstore/detail/darkhub/dkjhglblnbkbllapljjhjjggnoijejdj)
+
+## manual installation:
 
 - navigate to `chrome://extensions/`
 - choose `load unpacked extension...`
