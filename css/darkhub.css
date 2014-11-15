@@ -432,6 +432,9 @@ h3.commit-group-heading {
 	background-color: #967373 !important;
 	color: #ffffff !important;
 }
+.select-menu-item a {
+	color: #fff !important;
+}
 dl.form.errored>dt label {
 	color: #00C5D7 !important;
 }

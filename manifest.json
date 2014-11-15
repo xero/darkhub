@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "darkhub",
     "description": "a crude google chrome extension to darken github.com",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "xero harrison",
     "permissions": [
         "tabs",
