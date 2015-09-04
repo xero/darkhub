@@ -21,4 +21,7 @@ free to download and install via the [chrome webstore](https://chrome.google.com
 - browse to the repository location
 - click `ok`
 
+## stylish
+you can also apply the mods via [stylish](https://github.com/xero/stylez)
+
 ![](https://raw.github.com/xero/darkhub/master/preview.png)
