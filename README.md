@@ -22,6 +22,8 @@ free to download and install via the [chrome webstore](https://chrome.google.com
 - click `ok`
 
 ## stylish
-you can also apply the mods via [stylish](https://github.com/xero/stylez)
+you can also apply this theme with [stylish](https://userstyles.org/styles/116810/darkhub-github-com)
 
 ![](https://raw.github.com/xero/darkhub/master/preview.png)
+
+find more of my userstyles at [git.io/stylez](https://git.io/stylez)
