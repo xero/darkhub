@@ -1,5 +1,8 @@
 #darkhub
 
+# project is dead, as github has a nice darkmode now
+
+
 ``` 
   ▓▓▓▓▓▓▓▓▓▓
  ░▓ about  ▓ a crude google chrome extension to darken github.com
